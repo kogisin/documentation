@@ -485,6 +485,10 @@
     "tokenAdminRegistry": {
       "address": "0x732cC8266993dDfc5a91035EBe7afF301Be4e8c3",
       "version": "1.5.0"
+    },
+    "tokenPoolFactory": {
+      "address": "0x6BE8eE8088ecB3e89461c5932fbBC4FA74EC4B43",
+      "version": "1.5.1"
     }
   },
   "ethereum-testnet-sepolia-kroma-1": {
@@ -837,6 +841,10 @@
     "tokenAdminRegistry": {
       "address": "0xA6643e4f53ceABad16970e8592D4eF7fea49260a",
       "version": "1.5.0"
+    },
+    "tokenPoolFactory": {
+      "address": "0xD3A3f578F826761D0b2a256b14a4b4203004C8fF",
+      "version": "1.5.1"
     }
   },
   "hemi-testnet-sepolia": {
@@ -877,6 +885,30 @@
     "tokenAdminRegistry": {
       "address": "0x3A849a05a590FeaEf26c2d425241A2BF29307161",
       "version": "1.5.0"
+    }
+  },
+  "megaeth-testnet": {
+    "armProxy": {
+      "address": "0xa0d305199271Be1C1479dA683Fc0CfC0757fBEC3",
+      "version": "1.5.0"
+    },
+    "chainSelector": "2443239559770384419",
+    "feeTokens": ["LINK", "WETH"],
+    "registryModule": {
+      "address": "0x569a9A63a4543a5Cb79AE717dF1E26E7D30Ae08D",
+      "version": "1.5.0"
+    },
+    "router": {
+      "address": "0x35e752bf853009C8E080CdB3De88e3273B1c75E3",
+      "version": "1.2.0"
+    },
+    "tokenAdminRegistry": {
+      "address": "0x333b07484C0951075e9c5Fe7440ea0A93373b633",
+      "version": "1.5.0"
+    },
+    "tokenPoolFactory": {
+      "address": "0x6b821af5fc24eAbF855d5f9A82Fc08debD7C6d41",
+      "version": "1.5.1"
     }
   },
   "mind-testnet": {

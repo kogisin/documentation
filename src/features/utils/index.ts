@@ -296,6 +296,8 @@ export const directoryToSupportedChain = (chainInRdd: string): SupportedChain =>
       return "TREASURE_TOPAZ"
     case "ethereum-testnet-sepolia-lens-1":
       return "LENS_SEPOLIA"
+    case "lens-mainnet":
+      return "LENS_MAINNET"
     case "berachain-mainnet":
       return "BERACHAIN_MAINNET"
     case "berachain-testnet-bartio":
@@ -346,6 +348,14 @@ export const directoryToSupportedChain = (chainInRdd: string): SupportedChain =>
       return "MIND_NETWORK_TESTNET"
     case "mind-mainnet":
       return "MIND_NETWORK_MAINNET"
+    case "taiko-mainnet":
+      return "TAIKO_MAINNET"
+    case "taiko-testnet":
+      return "TAIKO_TESTNET"
+    case "plume-testnet":
+      return "PLUME_TESTNET"
+    case "plume-mainnet":
+      return "PLUME_MAINNET"
     default:
       throw Error(`Chain not found ${chainInRdd}`)
   }
@@ -501,6 +511,8 @@ export const supportedChainToChainInRdd = (supportedChain: SupportedChain): stri
       return "treasure-testnet-topaz"
     case "LENS_SEPOLIA":
       return "ethereum-testnet-sepolia-lens-1"
+    case "LENS_MAINNET":
+      return "lens-mainnet"
     case "BERACHAIN_MAINNET":
       return "berachain-mainnet"
     case "BERACHAIN_BARTIO":
@@ -551,6 +563,14 @@ export const supportedChainToChainInRdd = (supportedChain: SupportedChain): stri
       return "mind-testnet"
     case "MIND_NETWORK_MAINNET":
       return "mind-mainnet"
+    case "TAIKO_MAINNET":
+      return "taiko-mainnet"
+    case "TAIKO_TESTNET":
+      return "taiko-testnet"
+    case "PLUME_TESTNET":
+      return "plume-testnet"
+    case "PLUME_MAINNET":
+      return "plume-mainnet"
     default:
       throw Error(`Chain not found ${supportedChain}`)
   }

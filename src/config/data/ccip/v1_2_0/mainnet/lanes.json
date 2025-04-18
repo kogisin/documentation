@@ -1,4 +1,54 @@
 {
+  "apechain-mainnet": {
+    "ethereum-mainnet-arbitrum-1": {
+      "offRamp": {
+        "address": "0x27eb7369a1c76d1354c5d6c744a32ef7a64Ac784",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x587F108fa0F1243AbcDBA182da76730a9A115c36",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-mainnet-base-1": {
+      "offRamp": {
+        "address": "0x8B8BA43dA94e429B5CbEBB8c300A79A4c674aB53",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x52EB14201fAC868Bd412A4c281c63D9873f42828",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "mainnet": {
+      "offRamp": {
+        "address": "0xEcCE8050936094DF9350FcAF116079eDbb573B50",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xe8673c392bb781Ad26C214078599f34bdf97Fe50",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "matic-mainnet": {
+      "offRamp": {
+        "address": "0x8342125739d1B2c0F226ab05d2845b8a9b55df3A",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x7041329791BEe0C80AEc0DCFb497425DCa0Ff70A",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    }
+  },
   "avalanche-mainnet": {
     "bsc-mainnet": {
       "offRamp": {
@@ -54,7 +104,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -138,20 +188,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
         "USDC": {
           "rateLimiterConfig": {
             "in": {
@@ -177,6 +213,20 @@
               "capacity": "0",
               "isEnabled": false,
               "rate": "0"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -208,6 +258,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "SHIB": {
           "rateLimiterConfig": {
             "in": {
@@ -223,20 +287,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -277,6 +327,20 @@
               "rate": "0"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            }
+          }
         }
       }
     },
@@ -306,7 +370,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -418,6 +482,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "SDY": {
           "rateLimiterConfig": {
             "in": {
@@ -460,20 +538,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
         "USDC": {
           "rateLimiterConfig": {
             "in": {
@@ -485,6 +549,20 @@
               "capacity": "0",
               "isEnabled": false,
               "rate": "0"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -600,6 +678,18 @@
     }
   },
   "berachain-mainnet": {
+    "bsc-mainnet": {
+      "offRamp": {
+        "address": "0x77BBC3841A5c06Cc59378719c42ad1A7fe6157e3",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x9519DEF016b11BBeFB617Fe128AaA67680a82A95",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "mainnet": {
       "offRamp": {
         "address": "0x133e59ACf07728755440B0b0A7DC282EBcE04e31",
@@ -615,14 +705,14 @@
         "uniBTC": {
           "rateLimiterConfig": {
             "in": {
-              "capacity": "200000000",
+              "capacity": "400000000",
               "isEnabled": true,
-              "rate": "2315"
+              "rate": "4629"
             },
             "out": {
-              "capacity": "200000000",
+              "capacity": "400000000",
               "isEnabled": true,
-              "rate": "2315"
+              "rate": "4629"
             }
           }
         }
@@ -653,6 +743,20 @@
               "capacity": "200000000",
               "isEnabled": true,
               "rate": "11574"
+            }
+          }
+        },
+        "USDC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
             }
           }
         }
@@ -800,7 +904,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -815,6 +919,18 @@
           }
         }
       }
+    },
+    "berachain-mainnet": {
+      "offRamp": {
+        "address": "0xe7EcE831c683B4eCd01B895f7310b0bb17aD64ef",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x004405d927caD243358A270c2dD3D51c8303A390",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "ethereum-mainnet-arbitrum-1": {
       "offRamp": {
@@ -913,20 +1029,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -1051,6 +1153,20 @@
               "rate": "136111000"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
         }
       }
     },
@@ -1136,20 +1252,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "UNIO": {
           "rateLimiterConfig": {
             "in": {
@@ -1191,6 +1293,20 @@
               "rate": "136111000"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
         }
       }
     },
@@ -1201,6 +1317,18 @@
       },
       "onRamp": {
         "address": "0x0b7Bfe549F26AF4B6aA5246CB3FD96C8a5c23a68",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-mainnet-ink-1": {
+      "offRamp": {
+        "address": "0x12CC5797a842347Dc2D4DAB2aFe22b07fc987E25",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x2Bac5BC6c0a073831a4cf6E0c996140B7A76F296",
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
@@ -1232,7 +1360,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -1484,20 +1612,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "SolvBTC.ENA": {
           "rateLimiterConfig": {
             "in": {
@@ -1637,6 +1751,20 @@
               "rate": "136111000"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
         }
       }
     },
@@ -1737,6 +1865,18 @@
           }
         }
       }
+    },
+    "mind-mainnet": {
+      "offRamp": {
+        "address": "0x160E2CeaB31A5fdcC480506746D1d99fB626Cc5D",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x92884F00d64daf778e3A86173d364A184CA532F6",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "soneium-mainnet": {
       "offRamp": {
@@ -1914,7 +2054,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "rmnPermeable": true
+      "rmnPermeable": false
     },
     "mainnet": {
       "offRamp": {
@@ -1996,7 +2136,7 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "rmnPermeable": true
+      "rmnPermeable": false
     },
     "soneium-mainnet": {
       "offRamp": {
@@ -2053,6 +2193,34 @@
           }
         }
       }
+    }
+  },
+  "cronos-mainnet": {
+    "mainnet": {
+      "offRamp": {
+        "address": "0x305763f90CF335FAae061DA6341533D263B1876f",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x5873C4FfD8A3DdB610e5079cebA63a1C04340A29",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    }
+  },
+  "cronos-zkevm-mainnet": {
+    "mainnet": {
+      "offRamp": {
+        "address": "0xe43D992336f286c9a4d6A9Cd9f65C89771cbC52f",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xf1D0D8f9309dD48Ce46110A474C11908e3B49EA3",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "ethereum-mainnet-andromeda-1": {
@@ -2198,6 +2366,18 @@
     }
   },
   "ethereum-mainnet-arbitrum-1": {
+    "apechain-mainnet": {
+      "offRamp": {
+        "address": "0x7c04e5396B774758847f408864c9389C18353275",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xDdb06a5c964d38C0AA2119ea7a805583565988d3",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "avalanche-mainnet": {
       "offRamp": {
         "address": "0x95095007d5Cc3E7517A1A03c9e228adA5D0bc376",
@@ -2266,20 +2446,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
         "USDC": {
           "rateLimiterConfig": {
             "in": {
@@ -2305,6 +2471,20 @@
               "capacity": "0",
               "isEnabled": false,
               "rate": "0"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -2407,20 +2587,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -2543,6 +2709,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
             }
           }
         }
@@ -2782,20 +2962,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "stTAO": {
           "rateLimiterConfig": {
             "in": {
@@ -2964,6 +3130,20 @@
             }
           }
         },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
+        },
         "ZUN": {
           "rateLimiterConfig": {
             "in": {
@@ -3062,7 +3242,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -3748,20 +3928,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "SolvBTC.ENA": {
           "rateLimiterConfig": {
             "in": {
@@ -4025,6 +4191,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
             }
           }
         },
@@ -4346,6 +4526,18 @@
     }
   },
   "ethereum-mainnet-base-1": {
+    "apechain-mainnet": {
+      "offRamp": {
+        "address": "0x03EE839151E48CEE69f5e4e8D28B35CE2Eae0446",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x88cED349C02630b073D9879d30F79D6eD56B9268",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "avalanche-mainnet": {
       "offRamp": {
         "address": "0x61C3f6d72c80A3D1790b213c4cB58c3d4aaFccDF",
@@ -4372,6 +4564,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "SHIB": {
           "rateLimiterConfig": {
             "in": {
@@ -4387,20 +4593,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -4439,6 +4631,20 @@
               "capacity": "0",
               "isEnabled": false,
               "rate": "0"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -4526,20 +4732,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "UNIO": {
           "rateLimiterConfig": {
             "in": {
@@ -4579,6 +4771,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
             }
           }
         }
@@ -4776,20 +4982,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "stTAO": {
           "rateLimiterConfig": {
             "in": {
@@ -4958,6 +5150,20 @@
             }
           }
         },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
+        },
         "ZUN": {
           "rateLimiterConfig": {
             "in": {
@@ -5044,6 +5250,18 @@
         }
       }
     },
+    "ethereum-mainnet-ink-1": {
+      "offRamp": {
+        "address": "0x53aB03801579793B31eDD3Afc16fc9A25EdDfdAb",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xbe6B55A0D720c4106bfca7beA3908a77ce3C31A2",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-mainnet-linea-1": {
       "offRamp": {
         "address": "0x335581943Ef47030e52E4Fe921d4b72d15a20aB3",
@@ -5070,7 +5288,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -5574,6 +5792,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "NEIRO": {
           "rateLimiterConfig": {
             "in": {
@@ -5631,20 +5863,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -5826,6 +6044,20 @@
             }
           }
         },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
+        },
         "XSWAP": {
           "rateLimiterConfig": {
             "in": {
@@ -5921,6 +6153,20 @@
               "capacity": "100000000000000000000000000",
               "isEnabled": true,
               "rate": "27778000000000000000000"
+            }
+          }
+        },
+        "LYP": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "50000000000000000000000",
+              "isEnabled": true,
+              "rate": "83333333333300000000"
+            },
+            "out": {
+              "capacity": "50000000000000000000000",
+              "isEnabled": true,
+              "rate": "83333333333300000000"
             }
           }
         },
@@ -6246,6 +6492,18 @@
     }
   },
   "ethereum-mainnet-ink-1": {
+    "bsc-mainnet": {
+      "offRamp": {
+        "address": "0xdD86Db1e3D27b06aDbF4C449fB66c6ac3C79d74B",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x363788B5d323c57fa7469BE8FBbB99e554731e52",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "celo-mainnet": {
       "offRamp": {
         "address": "0x92329665dD07F897fe1cc38d20e1a86FD6394f23",
@@ -6258,6 +6516,18 @@
       },
       "rmnPermeable": true
     },
+    "ethereum-mainnet-base-1": {
+      "offRamp": {
+        "address": "0xfc960D01fD45A396E7874383580fDe1E3c726490",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x271315a46CD922C6977aC91ba425ed421279B783",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "mainnet": {
       "offRamp": {
         "address": "0x809E132A7C3A689a7026971be32697B6cD507f63",
@@ -6265,6 +6535,18 @@
       },
       "onRamp": {
         "address": "0x288Ad43143e135C4e350B23162c538E83fF1FCF5",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "sonic-mainnet": {
+      "offRamp": {
+        "address": "0x55dfEB67b429A4073b27c49C3Ed7916fbeEF6E4B",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x9da03ab4d9D126cDCC83fbb84cD2197776302D35",
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
@@ -6342,7 +6624,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -6384,7 +6666,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -6426,7 +6708,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -6468,7 +6750,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -6564,7 +6846,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -8210,20 +8492,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "150000000000000000000",
-              "isEnabled": true,
-              "rate": "1736100000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
         "USDM": {
           "rateLimiterConfig": {
             "in": {
@@ -8235,6 +8503,20 @@
               "capacity": "1000000000000000000000000",
               "isEnabled": true,
               "rate": "11600000000000000000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "150000000000000000000",
+              "isEnabled": true,
+              "rate": "1736100000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -8283,7 +8565,47 @@
       "rmnPermeable": false
     }
   },
+  "hedera-mainnet": {
+    "mainnet": {
+      "offRamp": {
+        "address": "0x6e6bA22dd2A558cA00B7799F2771938AfEEE65B9",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x6480de6257c3b0Bc249f2653551964693AA914c0",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    }
+  },
+  "lens-mainnet": {
+    "mainnet": {
+      "offRamp": {
+        "address": "0x064bDf3699E17e79E56DF65508170339cD73EB7e",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xdaC19bddEf396c222ecDb9109C9E5993a19cd5d5",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    }
+  },
   "mainnet": {
+    "apechain-mainnet": {
+      "offRamp": {
+        "address": "0x7115F0fB22e0A85133C06b50aDc3B90b335ea175",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x48F836a7697c0082B2Ecb4B2639f6da79de21980",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    },
     "avalanche-mainnet": {
       "offRamp": {
         "address": "0xd98E80C79a15E4dbaF4C40B6cCDF690fe619BFBb",
@@ -8352,6 +8674,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "SDY": {
           "rateLimiterConfig": {
             "in": {
@@ -8394,20 +8730,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            },
-            "out": {
-              "capacity": "2500000000000000000",
-              "isEnabled": true,
-              "rate": "115740000000000"
-            }
-          }
-        },
         "USDC": {
           "rateLimiterConfig": {
             "in": {
@@ -8419,6 +8741,20 @@
               "capacity": "0",
               "isEnabled": false,
               "rate": "0"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }
@@ -8439,14 +8775,14 @@
         "uniBTC": {
           "rateLimiterConfig": {
             "in": {
-              "capacity": "200000000",
+              "capacity": "400000000",
               "isEnabled": true,
-              "rate": "2315"
+              "rate": "4629"
             },
             "out": {
-              "capacity": "200000000",
+              "capacity": "400000000",
               "isEnabled": true,
-              "rate": "2315"
+              "rate": "4629"
             }
           }
         }
@@ -8475,6 +8811,20 @@
               "capacity": "200000000",
               "isEnabled": true,
               "rate": "2315"
+            }
+          }
+        },
+        "USDC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
             }
           }
         }
@@ -8728,20 +9078,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "SolvBTC.ENA": {
           "rateLimiterConfig": {
             "in": {
@@ -8881,6 +9217,20 @@
               "rate": "136111000"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            }
+          }
         }
       }
     },
@@ -8993,6 +9343,30 @@
           }
         }
       }
+    },
+    "cronos-mainnet": {
+      "offRamp": {
+        "address": "0xAe2A2A088A8F85A2DB90A61BD463433985C437F0",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x03CB4C67D01a78F44289541281E57C33E6b834d9",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    },
+    "cronos-zkevm-mainnet": {
+      "offRamp": {
+        "address": "0xcdcA3F3aa3A4df41a3DAF885e3E25666Ee96D7e4",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x8b858ED23502611aB86109717C8842A7A8f117ec",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
     },
     "ethereum-mainnet-andromeda-1": {
       "offRamp": {
@@ -9510,20 +9884,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
         "SolvBTC.ENA": {
           "rateLimiterConfig": {
             "in": {
@@ -9787,6 +10147,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
             }
           }
         },
@@ -10084,6 +10458,20 @@
             }
           }
         },
+        "MYST": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            },
+            "out": {
+              "capacity": "0",
+              "isEnabled": false,
+              "rate": "0"
+            }
+          }
+        },
         "NEIRO": {
           "rateLimiterConfig": {
             "in": {
@@ -10141,20 +10529,6 @@
           }
         },
         "SolvBTC": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            },
-            "out": {
-              "capacity": "15000000000000000000",
-              "isEnabled": true,
-              "rate": "694440000000000"
-            }
-          }
-        },
-        "SolvBTC.BBN": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -10333,6 +10707,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
+            },
+            "out": {
+              "capacity": "15000000000000000000",
+              "isEnabled": true,
+              "rate": "694440000000000"
             }
           }
         },
@@ -10556,7 +10944,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "15000000000000000000",
@@ -11234,20 +11622,6 @@
             }
           }
         },
-        "SolvBTC.BBN": {
-          "rateLimiterConfig": {
-            "in": {
-              "capacity": "150000000000000000000",
-              "isEnabled": true,
-              "rate": "1736100000000000"
-            },
-            "out": {
-              "capacity": "150000000000000000000",
-              "isEnabled": true,
-              "rate": "1736100000000000"
-            }
-          }
-        },
         "USDM": {
           "rateLimiterConfig": {
             "in": {
@@ -11261,6 +11635,20 @@
               "rate": "11600000000000000000"
             }
           }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "150000000000000000000",
+              "isEnabled": true,
+              "rate": "1736100000000000"
+            },
+            "out": {
+              "capacity": "150000000000000000000",
+              "isEnabled": true,
+              "rate": "1736100000000000"
+            }
+          }
         }
       }
     },
@@ -11272,6 +11660,30 @@
       "onRamp": {
         "address": "0x31ee106a4585a796caacC645172B9F7e9c2f8D37",
         "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    },
+    "hedera-mainnet": {
+      "offRamp": {
+        "address": "0x7A82D2d3d824f9BAc136C31ef8086C673d23666D",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x08C798376AfA295C047bDb5c011097865895672d",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true
+    },
+    "lens-mainnet": {
+      "offRamp": {
+        "address": "0x4Bc6027Cd2da6CB7A105D5cE2D039c4892225419",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x6715EA73EcAf1CaE1c736731129637B2E94a6B49",
+        "enforceOutOfOrder": true,
         "version": "1.5.0"
       },
       "rmnPermeable": true
@@ -11620,7 +12032,37 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "rmnPermeable": true
+      "rmnPermeable": true,
+      "supportedTokens": {
+        "SolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            }
+          }
+        }
+      }
     },
     "shibarium-mainnet": {
       "offRamp": {
@@ -11690,7 +12132,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "0",
@@ -11718,21 +12160,35 @@
       },
       "rmnPermeable": true,
       "supportedTokens": {
-        "SolvBTC": {
+        "LINK": {
           "rateLimiterConfig": {
             "in": {
-              "capacity": "300000000000000000000",
+              "capacity": "50000000000000000000000",
               "isEnabled": true,
-              "rate": "3472000000000000"
+              "rate": "4630000000000000000"
             },
             "out": {
-              "capacity": "300000000000000000000",
+              "capacity": "50000000000000000000000",
               "isEnabled": true,
-              "rate": "3472000000000000"
+              "rate": "4630000000000000000"
             }
           }
         },
-        "SolvBTC.BBN": {
+        "mBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "400000000",
+              "isEnabled": true,
+              "rate": "18518"
+            },
+            "out": {
+              "capacity": "400000000",
+              "isEnabled": true,
+              "rate": "18518"
+            }
+          }
+        },
+        "SolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "300000000000000000000",
@@ -11771,6 +12227,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "300000000000000000000",
+              "isEnabled": true,
+              "rate": "3472000000000000"
+            },
+            "out": {
+              "capacity": "300000000000000000000",
+              "isEnabled": true,
+              "rate": "3472000000000000"
             }
           }
         }
@@ -11958,6 +12428,18 @@
     }
   },
   "matic-mainnet": {
+    "apechain-mainnet": {
+      "offRamp": {
+        "address": "0xBb331Ac82A67d28b05386ea8762eECd014433dc9",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xb9494347a3D13Fb499a72e95b9DAbF6F20C18768",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "avalanche-mainnet": {
       "offRamp": {
         "address": "0x35c1Bb5A9c2F3fa8f8dFF470a6bE7d362CeA1ef3",
@@ -12287,6 +12769,20 @@
               "capacity": "100000000000000000000000000",
               "isEnabled": true,
               "rate": "27778000000000000000000"
+            }
+          }
+        },
+        "LYP": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "50000000000000000000000",
+              "isEnabled": true,
+              "rate": "83333333333300000000"
+            },
+            "out": {
+              "capacity": "50000000000000000000000",
+              "isEnabled": true,
+              "rate": "83333333333300000000"
             }
           }
         },
@@ -12658,6 +13154,18 @@
     }
   },
   "mind-mainnet": {
+    "bsc-mainnet": {
+      "offRamp": {
+        "address": "0x92a7A4b2E2c242661f88be40788A7cfA8F0dd7F4",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x7d9CA4bF88c0567c65186810Cf62f55504a5D086",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-mainnet-arbitrum-1": {
       "offRamp": {
         "address": "0x1011d2CA716fDf9cCb358c118164e887048a3B5C",
@@ -12934,7 +13442,37 @@
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
-      "rmnPermeable": false
+      "rmnPermeable": false,
+      "supportedTokens": {
+        "SolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            }
+          }
+        }
+      }
     }
   },
   "shibarium-mainnet": {
@@ -13104,7 +13642,7 @@
             }
           }
         },
-        "SolvBTC.BBN": {
+        "xSolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "60000000000000000000",
@@ -13262,6 +13800,18 @@
         }
       }
     },
+    "ethereum-mainnet-ink-1": {
+      "offRamp": {
+        "address": "0x1E2786683e6fBF80B8773e53e6baB4684Bd20E90",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x0b3a51B27855e6D7a1CE7a47F6fF3922c2CfB0C8",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-mainnet-mode-1": {
       "offRamp": {
         "address": "0xb74319e12FAfC25eca5E28fF19192B54616DaCDA",
@@ -13330,21 +13880,35 @@
       },
       "rmnPermeable": false,
       "supportedTokens": {
-        "SolvBTC": {
+        "LINK": {
           "rateLimiterConfig": {
             "in": {
-              "capacity": "2500000000000000000",
+              "capacity": "50000000000000000000000",
               "isEnabled": true,
-              "rate": "115740000000000"
+              "rate": "4630000000000000000"
             },
             "out": {
-              "capacity": "2500000000000000000",
+              "capacity": "50000000000000000000000",
               "isEnabled": true,
-              "rate": "115740000000000"
+              "rate": "4630000000000000000"
             }
           }
         },
-        "SolvBTC.BBN": {
+        "mBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "400000000",
+              "isEnabled": true,
+              "rate": "18518"
+            },
+            "out": {
+              "capacity": "400000000",
+              "isEnabled": true,
+              "rate": "18518"
+            }
+          }
+        },
+        "SolvBTC": {
           "rateLimiterConfig": {
             "in": {
               "capacity": "2500000000000000000",
@@ -13383,6 +13947,20 @@
               "capacity": "490000000000",
               "isEnabled": true,
               "rate": "136111000"
+            }
+          }
+        },
+        "xSolvBTC": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
+            },
+            "out": {
+              "capacity": "2500000000000000000",
+              "isEnabled": true,
+              "rate": "115740000000000"
             }
           }
         }

@@ -54,6 +54,8 @@ export type SupportedTechnology =
   | "0G"
   | "MIND_NETWORK"
   | "MEGAETH"
+  | "TAIKO"
+  | "PLUME"
 
 export type SupportedChain =
   | "ETHEREUM_MAINNET"
@@ -136,6 +138,7 @@ export type SupportedChain =
   | "TREASURE_MAINNET"
   | "TREASURE_TOPAZ"
   | "LENS_SEPOLIA"
+  | "LENS_MAINNET"
   | "BERACHAIN_MAINNET"
   | "BERACHAIN_BARTIO"
   | "HYPERLIQUID_MAINNET"
@@ -161,6 +164,10 @@ export type SupportedChain =
   | "MIND_NETWORK_TESTNET"
   | "MIND_NETWORK_MAINNET"
   | "MEGAETH_TESTNET"
+  | "TAIKO_MAINNET"
+  | "TAIKO_TESTNET"
+  | "PLUME_MAINNET"
+  | "PLUME_TESTNET"
 
 export type ExplorerInfo = {
   baseUrl: string

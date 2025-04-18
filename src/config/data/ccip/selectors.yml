@@ -87,6 +87,9 @@ selectors:
   1337:
     selector: "3379446385462418246"
     name: "geth-testnet"
+  31337:
+    selector: "7759470850252068959"
+    name: "anvil-devnet"
   45439:
     selector: "8446413392851542429"
     name: "private-testnet-opala"
@@ -185,6 +188,9 @@ selectors:
   84532:
     selector: "10344971235874465080"
     name: "ethereum-testnet-sepolia-base-1"
+  98867:
+    selector: "13874588925447303949"
+    name: "plume-testnet-sepolia"
   10200:
     selector: "8871595565390010547"
     name: "gnosis_chain-testnet-chiado"
@@ -295,6 +301,27 @@ selectors:
   6342:
     selector: "2443239559770384419"
     name: "megaeth-testnet"
+  999999999:
+    selector: "16244020411108056671"
+    name: "zora-testnet"
+  1687:
+    selector: "10749384167430721561"
+    name: "mint-testnet"
+  11124:
+    selector: "16235373811196386733"
+    name: "abstract-testnet"
+  53302:
+    selector: "13694007683517087973"
+    name: "superseed-testnet"
+  128123:
+    selector: "1910019406958449359"
+    name: "etherlink-testnet"
+  1740:
+    selector: "6286293440461807648"
+    name: "metal-testnet"
+  6930:
+    selector: "305104239123120457"
+    name: "nibiru-testnet"
 
   # Mainnets
   1:
@@ -378,6 +405,9 @@ selectors:
   592:
     selector: "6422105447186081193"
     name: "polkadot-mainnet-astar"
+  999:
+    selector: "2442541497099098535"
+    name: "hyperliquid-mainnet"
   1088:
     selector: "8805746078405598895"
     name: "ethereum-mainnet-metis-1"
@@ -449,6 +479,8 @@ selectors:
     name: "berachain-mainnet"
   98865:
     selector: "3208172210661564830"
+  98866:
+    selector: "17912061998839310979"
     name: "plume-mainnet"
   432204:
     selector: "5463201557265485081"
@@ -519,3 +551,27 @@ selectors:
   228:
     selector: "11690709103138290329"
     name: "mind-mainnet"
+  7777777:
+    selector: "3555797439612589184"
+    name: "zora-mainnet"
+  5330:
+    selector: "470401360549526817"
+    name: "superseed-mainnet"
+  2741:
+    selector: "3577778157919314504"
+    name: "abstract-mainnet"
+  1135:
+    selector: "15293031020466096408"
+    name: "lisk-mainnet"
+  185:
+    selector: "17164792800244661392"
+    name: "mint-mainnet"
+  42793:
+    selector: "13624601974233774587"
+    name: "etherlink-mainnet"
+  1750:
+    selector: "13447077090413146373"
+    name: "metal-mainnet"
+  6900:
+    selector: "17349189558768828726"
+    name: "nibiru-mainnet"

@@ -18,6 +18,20 @@ export type NetworkData = {
 
 export const StreamsNetworksData: NetworkData[] = [
   {
+    network: "Apechain",
+    logoUrl: "/assets/chains/apechain.svg",
+    mainnet: {
+      label: "Apechain Mainnet",
+      verifierProxy: "0x2e6621e5e3F916d5e512124dD79e06b55E258054",
+      explorerUrl: "https://apescan.io/address/%s",
+    },
+    testnet: {
+      label: "Apechain Curtis (Testnet)",
+      verifierProxy: "0x9D93c410AfDb41E8aEb1BA88B5Ff6DEAa09FF537",
+      explorerUrl: "https://explorer.curtis.apechain.com/address/%s",
+    },
+  },
+  {
     network: "Arbitrum",
     logoUrl: "/assets/chains/arbitrum.svg",
     networkStatus: "https://arbiscan.freshstatus.io/",
@@ -145,6 +159,20 @@ export const StreamsNetworksData: NetworkData[] = [
     },
   },
   {
+    network: "Gnosis",
+    logoUrl: "/assets/chains/gnosis-chain.svg",
+    mainnet: {
+      label: "Gnosis Mainnet",
+      verifierProxy: "0x60fAa7faC949aF392DFc858F5d97E3EEfa07E9EB",
+      explorerUrl: "https://gnosis.blockscout.com/address/%s",
+    },
+    testnet: {
+      label: "Gnosis Chiado",
+      verifierProxy: "0x60fAa7faC949aF392DFc858F5d97E3EEfa07E9EB",
+      explorerUrl: "https://gnosis-chiado.blockscout.com/address/%s",
+    },
+  },
+  {
     network: "HashKey Chain",
     logoUrl: "/assets/chains/hashkey.svg",
     mainnet: {
@@ -185,6 +213,20 @@ export const StreamsNetworksData: NetworkData[] = [
       label: "Ink Sepolia Testnet",
       verifierProxy: "0x1f27392cC2394d54fFBA83B89C881200b5d5632C",
       explorerUrl: "https://explorer-sepolia.inkonchain.com/address/%s",
+    },
+  },
+  {
+    network: "Lens",
+    logoUrl: "/assets/chains/lens.svg",
+    mainnet: {
+      label: "Lens Mainnet",
+      verifierProxy: "0xD9A79903359B4Dedf3a9c26AB47D4a8Fc62A70A2",
+      explorerUrl: "https://explorer.lens.xyz/address/%s",
+    },
+    testnet: {
+      label: "Lens Testnet",
+      verifierProxy: "0x5c0a4924535667ee025dDA78fCb0F213664927d5",
+      explorerUrl: "https://explorer.testnet.lens.xyz/address/%s",
     },
   },
   {
@@ -355,6 +397,20 @@ export const StreamsNetworksData: NetworkData[] = [
     },
   },
   {
+    network: "Taiko",
+    logoUrl: "/assets/chains/taiko.svg",
+    mainnet: {
+      label: "Taiko Alethia (Mainnet)",
+      verifierProxy: "0x60fAa7faC949aF392DFc858F5d97E3EEfa07E9EB",
+      explorerUrl: "https://taikoscan.io/address/%s",
+    },
+    testnet: {
+      label: "Taiko Hekla (Testnet)",
+      verifierProxy: "0xF45D6dba93d0dB2C849C280F45e60D6e11b3C4DD",
+      explorerUrl: "https://hekla.taikoscan.io/address/%s",
+    },
+  },
+  {
     network: "Unichain",
     logoUrl: "/assets/chains/unichain.svg",
     mainnet: {
@@ -373,12 +429,12 @@ export const StreamsNetworksData: NetworkData[] = [
     logoUrl: "/assets/chains/worldchain.svg",
     mainnet: {
       label: "World Chain Mainnet",
-      verifierProxy: "0x65eaE24251C5707D5aCBF7461A49fe87CB1bE4c7",
+      verifierProxy: "0x6733e9106094b0C794e8E0297c96611fF60460Bf",
       explorerUrl: "https://worldscan.org/address/%s",
     },
     testnet: {
       label: "World Chain Sepolia Testnet",
-      verifierProxy: "0x2482A390bE58b3cBB6Df72dB2e950Db20256e55E",
+      verifierProxy: "0xd61ceB4521453F147C58d22879B4ec539331F851",
       explorerUrl: "https://sepolia.worldscan.org/address/%s",
     },
   },

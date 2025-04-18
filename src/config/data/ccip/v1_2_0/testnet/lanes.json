@@ -563,6 +563,18 @@
           }
         }
       }
+    },
+    "ethereum-testnet-sepolia-arbitrum-1": {
+      "offRamp": {
+        "address": "0x73Aa5748738F217539bE2aB6efb9ff109C58044d",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xA81f2c35836eD7cA626C6C3e41754b45271C3B0E",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "bitcoin-testnet-merlin": {
@@ -776,6 +788,18 @@
       },
       "rmnPermeable": false
     },
+    "ink-testnet-sepolia": {
+      "offRamp": {
+        "address": "0x4df3ceDE40bDaD2D0C91C22fEd48fc99e4e8Df6E",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x38721C30f61C0Fe68b9021Eceb3d0376f4c8a827",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "polygon-testnet-amoy": {
       "offRamp": {
         "address": "0xAAe325adbc9C5a28e4e94Fef170D55de2CA9aA01",
@@ -817,6 +841,18 @@
           }
         }
       }
+    },
+    "sonic-testnet-blaze": {
+      "offRamp": {
+        "address": "0xb18516F7Fe3c9CB71378fB8aE7BE7292A8f7f296",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x29AC8a55Ed7c1b75b9cD5d94a3448CAd26889F93",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "wemix-testnet": {
       "offRamp": {
@@ -945,6 +981,30 @@
           }
         }
       }
+    },
+    "ethereum-testnet-sepolia-base-1": {
+      "offRamp": {
+        "address": "0xe1991a0Aa9dc7e6A03C1567B0932240044B42B0B",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x0b888FB4530a0CDac4B01A00ac7356e4647033e9",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-testnet-sepolia-optimism-1": {
+      "offRamp": {
+        "address": "0x94c0B1caC1d2a447D6f99170d48eb6f5A757c390",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x913c529fd0a1779a47d1Ac4fCe15303A9679E6Bd",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "core-testnet": {
@@ -1106,6 +1166,18 @@
       },
       "rmnPermeable": true
     },
+    "ink-testnet-sepolia": {
+      "offRamp": {
+        "address": "0xFeDdC16fF86f95525E72EB64A03F0808B79919f7",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x63DB37E5BC7Fde4073426D78b5EB00D66Ead14D1",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "polygon-testnet-amoy": {
       "offRamp": {
         "address": "0x9fB7896E3511c83bCACfDc19c97C21b730a42c42",
@@ -1117,6 +1189,18 @@
         "version": "1.5.0"
       },
       "rmnPermeable": true
+    },
+    "sonic-testnet-blaze": {
+      "offRamp": {
+        "address": "0xd3263a50Bd646c2db2006B86fe21Ea2Cf5AF96C7",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x55dA3bEe4743f577B6847F985bF355E4AE84f872",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "ethereum-testnet-holesky-fraxtal-1": {
@@ -2298,6 +2382,34 @@
         }
       }
     },
+    "megaeth-testnet": {
+      "offRamp": {
+        "address": "0x268bb0d3Ea6a9Ddb56327BAc722baa417d19d52D",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xf07263970c90a7b4f852D43fAbE57E530CaEAA8c",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": true,
+      "supportedTokens": {
+        "CCIP-BnM": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "100000000000000000000000",
+              "isEnabled": true,
+              "rate": "167000000000000000000"
+            },
+            "out": {
+              "capacity": "100000000000000000000000",
+              "isEnabled": true,
+              "rate": "167000000000000000000"
+            }
+          }
+        }
+      }
+    },
     "mind-testnet": {
       "offRamp": {
         "address": "0xf2Ab32860972fBB7c61319868223b4A99d753CCE",
@@ -2770,6 +2882,18 @@
         }
       }
     },
+    "bitcoin-testnet-bsquared-1": {
+      "offRamp": {
+        "address": "0x44804276c37f76c8511A17f5A7C8c0Be4F8D52d2",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x6f1B6F28E38B44B8Bac59B5968b638EA4E5a5E64",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-testnet-holesky": {
       "offRamp": {
         "address": "0x24494cBF071C93F486e833eE291d7fE0F5e14564",
@@ -2962,6 +3086,18 @@
         }
       }
     },
+    "ethereum-testnet-sepolia-soneium-1": {
+      "offRamp": {
+        "address": "0x3aa0CAd01eA359d982b42c22d167A1bE8FC6bd61",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x03E5c12Ecd7A824961f66fCBEbe2fe04C0EB90Ef",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "polygon-testnet-amoy": {
       "offRamp": {
         "address": "0xB6C02E529D90B55fe64fbC27df6ad7890339A13f",
@@ -3001,6 +3137,18 @@
           }
         }
       }
+    },
+    "treasure-testnet-topaz": {
+      "offRamp": {
+        "address": "0xc3d4057a56bA7E05f6A753d200d7053fE672d151",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xee5510A188c9E9122FD5f150Ad374619E69A0D5b",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "wemix-testnet": {
       "offRamp": {
@@ -3185,6 +3333,18 @@
           }
         }
       }
+    },
+    "celo-testnet-alfajores": {
+      "offRamp": {
+        "address": "0xf5811Db4c3eb003096755EfABD0bc81bE1474c03",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xf0dA140F2AF6a1468F69a3017a6629E100616653",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "ethereum-testnet-holesky": {
       "offRamp": {
@@ -3408,6 +3568,18 @@
         }
       }
     },
+    "ink-testnet-sepolia": {
+      "offRamp": {
+        "address": "0xa8067d8cDccb7A244eD5Fcd5399F35f6b36dDA63",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x27dBC8774804613323b5C4A263fA4A72D893BE60",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "polygon-testnet-amoy": {
       "offRamp": {
         "address": "0x9D20eF141F921048d7A4202A55711c65d316B85b",
@@ -3459,6 +3631,18 @@
           }
         }
       }
+    },
+    "sonic-testnet-blaze": {
+      "offRamp": {
+        "address": "0x04820DD20aA1f496A58Ae13c660F2098EE889A02",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x28962bE32BD4e512f5213c50aFDCb4fd9a044374",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "xdai-testnet-chiado": {
       "offRamp": {
@@ -3899,6 +4083,18 @@
           }
         }
       }
+    },
+    "celo-testnet-alfajores": {
+      "offRamp": {
+        "address": "0xC4aE97223eD5E10296a1587a1C5b97D9977F2756",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xe0aD5783cE2D62da86e3ad6442455C859AE52261",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     },
     "ethereum-testnet-sepolia": {
       "offRamp": {
@@ -4350,6 +4546,18 @@
       },
       "rmnPermeable": false
     },
+    "ethereum-testnet-sepolia-arbitrum-1": {
+      "offRamp": {
+        "address": "0x935ced0C74E964aB0c3DfFcEB871e20b0d935bD9",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x969d925738117c305A61d3673c84A387650Ea02e",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "polkadot-testnet-astar-shibuya": {
       "offRamp": {
         "address": "0x73933E9E3a3F948f08B8e49173eBe2BD4d5DEBb4",
@@ -4600,6 +4808,30 @@
     }
   },
   "ink-testnet-sepolia": {
+    "bsc-testnet": {
+      "offRamp": {
+        "address": "0xC240a2095C299dc2f1d3560B7f40f93aB1C03213",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xD57356C663951CDde47225FDE6f3091237bdf1a5",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-testnet-holesky": {
+      "offRamp": {
+        "address": "0x928d6EB7298Be6E758Ba92258c6A6b5b2A932Cf4",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x513e772B9634B43BF21DBB24C3F1D6950724422c",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-testnet-sepolia": {
       "offRamp": {
         "address": "0x8992389C9ef918B393CaB10Fe9fa7aE720841cf2",
@@ -4607,6 +4839,60 @@
       },
       "onRamp": {
         "address": "0x69d242D6E840d689Dffa3E7c071b4e8368B6Aa08",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false,
+      "supportedTokens": {
+        "CCIP-BnM": {
+          "rateLimiterConfig": {
+            "in": {
+              "capacity": "100000000000000000000000",
+              "isEnabled": true,
+              "rate": "167000000000000000000"
+            },
+            "out": {
+              "capacity": "100000000000000000000000",
+              "isEnabled": true,
+              "rate": "167000000000000000000"
+            }
+          }
+        }
+      }
+    },
+    "ethereum-testnet-sepolia-base-1": {
+      "offRamp": {
+        "address": "0xaf38448a00718834c73706FED40188E8F29b888A",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x7695177D4903F93AD4E135b6B7Fab34195403C48",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "sonic-testnet-blaze": {
+      "offRamp": {
+        "address": "0x113e0b87Cd20AE0038C8414Bd7aed1e4a2D8BE0d",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xc1EC3d311112aA526476d5B3EdDcf0a44872788E",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    }
+  },
+  "megaeth-testnet": {
+    "ethereum-testnet-sepolia": {
+      "offRamp": {
+        "address": "0x66F074107530cf17b4abc5Fb57df4c8A8f302106",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x760C146e323Cbf065E353f0Cf6914BfFFb2DAdE0",
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
@@ -4683,6 +4969,18 @@
           }
         }
       }
+    },
+    "sonic-testnet-blaze": {
+      "offRamp": {
+        "address": "0xb57f58f00b62b3B0038f3C2Dd455afa932d15c50",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x3bA24CC1E4c12b4CAF85189C025028C856C5bdC1",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "polkadot-testnet-astar-shibuya": {
@@ -5300,6 +5598,30 @@
     }
   },
   "sonic-testnet-blaze": {
+    "bsc-testnet": {
+      "offRamp": {
+        "address": "0x761A8119AD4fFc2468f9B6AED52DACc2C18bA85f",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0xB68E6124E73c6f52557E30a4f81aBA05eFF08c33",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-testnet-holesky": {
+      "offRamp": {
+        "address": "0x49c09b7468208024096AC5fd75393b3aA5f9F2D9",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x154F2A42E294F3547f5aB5A4B8e5061Beb00b68f",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
     "ethereum-testnet-sepolia": {
       "offRamp": {
         "address": "0xd9cdb784d252D306a4A6f47b6c017fe5F15C4e10",
@@ -5307,6 +5629,42 @@
       },
       "onRamp": {
         "address": "0x34c7588F98478a8f06140b585c85E7c80b23ac53",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ethereum-testnet-sepolia-base-1": {
+      "offRamp": {
+        "address": "0x90D4ceb85E58198c46F730D015cd3702d1f97d23",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x900f41141a84F611Bd79F4Fe7029bC35d79dD950",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "ink-testnet-sepolia": {
+      "offRamp": {
+        "address": "0xa2AefaA703aC01Ab9516AB06dE1542F0D2A4ED8a",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x48f05b075e82CA6E5e0F43fbE3235C48f2B93079",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
+    },
+    "monad-testnet": {
+      "offRamp": {
+        "address": "0x73469c31b85bc20CcB354D79312E99087B9C5Af4",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x937bCf3b98Aa81881f6affb109f6335A512b3fdc",
         "enforceOutOfOrder": false,
         "version": "1.5.0"
       },
@@ -5341,6 +5699,18 @@
           }
         }
       }
+    },
+    "ethereum-testnet-sepolia-arbitrum-1": {
+      "offRamp": {
+        "address": "0xf0D7e579d7c5Bc0E8cE33b6f043b98BD8CDdB1b7",
+        "version": "1.5.0"
+      },
+      "onRamp": {
+        "address": "0x2bBf0C3300B830E84819505c6241B3d385649F63",
+        "enforceOutOfOrder": false,
+        "version": "1.5.0"
+      },
+      "rmnPermeable": false
     }
   },
   "wemix-testnet": {
